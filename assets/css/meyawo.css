@@ -572,6 +572,9 @@ pre code {
   .container {
     max-width: 720px;
   }
+  .logo {
+    width: 20%;
+  }
 }
 
 @media (min-width: 992px) {
@@ -2115,6 +2118,9 @@ pre code {
 }
 
 @media (max-width: 767.98px) {
+  .logo {
+    width: 50%;
+  }
   .table-responsive-md {
     display: block;
     width: 100%;
@@ -11075,7 +11081,14 @@ a.text-dark:hover, a.text-dark:focus {
 h1, h2, h3, h4, h5, h6 {
   font-weight: 500;
   font-family: 'Baloo Paaji', cursive;
-  color: #695aa6;
+}
+
+h1,h2,h3,h4,h5{
+  color: #FF6600;
+}
+
+h6{
+  /* color: #FF6600; */
 }
 
 .my-font {
@@ -11133,7 +11146,7 @@ p {
 
 .service-card {
   position: relative;
-  min-height: 230px;
+  min-height: 470px;
   border: 1px solid #dee2e6;
   overflow: hidden;
   border-radius: 3px;
@@ -11165,6 +11178,7 @@ p {
   visibility: hidden;
   -webkit-transition: all, 0.3s;
   transition: all, 0.3s;
+  text-align: justify;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -12027,8 +12041,8 @@ pre .code {
 }
 
 .footer .social-links a:hover {
-  background: #695aa6;
-  border-color: #695aa6;
+  background: #6699FF;
+  border-color: #6699FF;
   color: #fff;
   text-decoration: none;
 }

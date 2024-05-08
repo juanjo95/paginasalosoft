@@ -6,11 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Start your development with Meyawo landing page.">
     <meta name="author" content="Devcrud">
-    <title>Meyawo Landing page | Free Bootstrap 4.3.x landing page</title>
+    <!-- Etiqueta para el ícono -->
+    <link rel="icon" href="./assets/imgs/icono.png" type="image/x-icon">
+    <title>Salosoft - Grupo Salos SAS</title>
     <!-- font icons -->
     <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
     <!-- Bootstrap + Meyawo main styles -->
     <link rel="stylesheet" href="assets/css/meyawo.css">
+    
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
@@ -18,7 +21,7 @@
     <!-- Page Navbar -->
     <nav class="custom-navbar" data-spy="affix" data-offset-top="20">
         <div class="container">
-            <img src="./assets/imgs/logo.png" alt="logo" style="width: 20%;">
+            <img src="./assets/imgs/logo.png" alt="logo" class="logo">
             <ul class="nav">
                 <li class="item">
                     <a class="link" href="#home">Inicio</a>
@@ -27,7 +30,7 @@
                     <a class="link" href="#about">Nosotros</a>
                 </li>
                 <li class="item">
-                    <a class="link" href="#portfolio">Portafolio</a>
+                    <a class="link" href="#service">Servicios</a>
                 </li>
                 <li class="item">
                     <a class="link" href="#testmonial">Testimonios</a>
@@ -58,7 +61,7 @@
     </header><!-- end of page header -->
 
     <!-- about section -->
-    <section class="section pt-0" id="about">
+    <section class="section" id="about">
         <!-- container -->
         <div class="container text-center">
             <!-- about wrapper -->
@@ -70,9 +73,16 @@
                 <div class="about-caption">
                     <h2 class="section-title mb-3">Nosotros</h2>
                     <p style="text-align: justify;">
-                        En Salosoft, ofrecemos soluciones tecnológicas personalizadas y innovadoras para empresas. Contamos con un equipo experto en desarrollo de software para aplicaciones web, móviles y empresariales, así como consultoría especializada. Nuestra pasión por la innovación y el compromiso con el éxito del cliente nos guían en cada proyecto.
+                        En Salosoft, ofrecemos soluciones tecnológicas personalizadas e innovadoras para empresas. Contamos con un equipo experto en desarrollo de software para aplicaciones web, móviles y empresariales, así como consultoría especializada. Nuestra pasión por la innovación y el compromiso con el éxito del cliente nos guían en cada proyecto.
                     </p>
-                    <h2 class="mb-3">Misión</h2>
+                    <h6 class="section-subtitle mb-3">Misión</h6>
+                    <p style="text-align: justify;">
+                        Convertir las necesidades tecnológicas de nuestros clientes en soluciones innovadoras y personalizadas. Nos dedicamos a proporcionar servicios de desarrollo de software a medida que promuevan el crecimiento y la eficiencia empresarial, ofreciendo calidad, confianza y soporte constante en cada proyecto.
+                    </p>
+                    <h6 class="section-subtitle mb-3">Visión</h6>
+                    <p style="text-align: justify;">
+                        Ser líderes en el desarrollo de software a medida, destacándonos por comprender las necesidades únicas de cada cliente y ofrecer soluciones tecnológicas avanzadas que superen expectativas. Aspiramos a ser un aliado confiable para empresas, ayudándolas a alcanzar sus objetivos comerciales con éxito mediante la innovación y la excelencia en cada proyecto.
+                    </p>
                 </div>
             </div><!-- end of about wrapper -->
         </div><!-- end of container -->
@@ -82,7 +92,7 @@
     <section class="section" id="service">
         <div class="container text-center">
             <p class="section-subtitle">¿Qué hacemos?</p>
-            <h6 class="section-title mb-6">Servicios</h6>
+            <h2 class="section-title mb-6">Servicios</h2>
             <!-- row -->
             <div class="row">
                 <div class="col-md-6 col-lg-3">
@@ -91,7 +101,7 @@
                             <img src="assets/imgs/mobile-coding.png"
                             alt="imagen html"
                             class="icon">
-                            <h6 class="title">Desarrollo de Aplicaciones Web y Móviles</h6>
+                            <h6 class="section-subtitle">Desarrollo de Aplicaciones Web y Móviles</h6>
                             <p class="subtitle">Diseño y desarrollo de aplicaciones web y móviles personalizadas para diversas plataformas (iOS, Android, etc.).
                                 Integración de tecnologías modernas para garantizar un rendimiento óptimo y una experiencia de usuario excepcional.</p>
                         </div>
@@ -103,9 +113,9 @@
                             <img src="assets/imgs/erp.png"
                                 alt="image erp"
                                 class="icon">
-                            <h6 class="title">Desarrollo de Software Empresarial</h6>
-                            <p class="subtitle">Creación de soluciones de software a medida para optimizar los procesos internos de su empresa.
-                                Desarrollo de sistemas de gestión empresarial (ERP), sistemas de gestión de relaciones con clientes (CRM) y otros sistemas empresariales personalizados</p>
+                            <h6 class="section-subtitle">Desarrollo de Software Empresarial</h6>
+                            <p class="subtitle">
+                                Personalizamos soluciones de software para mejorar la eficiencia operativa de su empresa, adaptándonos a sus necesidades específicas y potenciando su crecimiento.</p>
                         </div>
                     </div>
                 </div>
@@ -115,7 +125,7 @@
                             <img src="assets/imgs/sale.png"
                                 alt="image ecommerce"
                                 class="icon">
-                            <h6 class="title">Desarrollo de Software de Comercio Electrónico</h6>
+                            <h6 class="section-subtitle">Desarrollo de Software de Comercio Electrónico</h6>
                             <p class="subtitle">Diseño y desarrollo de plataformas de comercio electrónico totalmente personalizadas para satisfacer las necesidades específicas de su negocio.
                                 Integración de características avanzadas de comercio electrónico, como pagos en línea seguros, gestión de inventario y análisis de datos.</p>
                         </div>
@@ -128,7 +138,7 @@
                             alt="imagen consultoria"
                             class="icon">
 
-                            <h6 class="title">Consultoría y Desarrollo de Prototipos</h6>
+                            <h6 class="section-subtitle">Consultoría y Desarrollo de Prototipos</h6>
                             <p class="subtitle">Asesoramiento experto en la definición de requisitos y la planificación de proyectos de desarrollo de software.
                                 Desarrollo de prototipos rápidos para validar conceptos y funcionalidades antes de la implementación completa del sistema</p>
                         </div>
@@ -142,7 +152,7 @@
     <section class="section" id="portfolio">
         <div class="container text-center">
             <p class="section-subtitle">What I Did ?</p>
-            <h6 class="section-title mb-6">Portfolio</h6>
+            <h2 class="section-title mb-6">Portfolio</h2>
             <!-- row -->
             <div class="row">
                 <div class="col-md-4">
@@ -189,7 +199,7 @@
     <section class="section" id="pricing">
         <div class="container text-center">
             <p class="section-subtitle">How Much I Charge ?</p>
-            <h6 class="section-title mb-6">My Pricing</h6>
+            <h2 class="section-title mb-6">My Pricing</h2>
             <!-- row -->
             <div class="pricing-wrapper">
                 <div class="pricing-card">
@@ -284,7 +294,7 @@
     <section class="section" id="testmonial">
         <div class="container text-center">
             <p class="section-subtitle">What Think Client About Me ?</p>
-            <h6 class="section-title mb-6">Testmonial</h6>
+            <h2 class="section-title mb-6">Testmonial</h2>
 
             <!-- row -->
             <div class="row">
@@ -325,7 +335,7 @@
         <!-- container -->
         <div class="container text-center">
             <p class="section-subtitle">Recent Posts?</p>
-            <h6 class="section-title mb-6">Blog</h6>
+            <h2 class="section-title mb-6">Blog</h2>
             <!-- blog-wrapper -->
             <div class="blog-card">
                 <div class="blog-card-header">
@@ -333,7 +343,7 @@
                         alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
                 </div>
                 <div class="blog-card-body">
-                    <h5 class="blog-card-title">Consectetur adipisicing elit</h6>
+                    <h6 class="blog-card-title">Consectetur adipisicing elit</h6>
 
                         <p class="blog-card-caption">
                             <a href="#">By: Admin</a>
@@ -360,7 +370,7 @@
                         alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
                 </div>
                 <div class="blog-card-body">
-                    <h5 class="blog-card-title">Explicabo illo</h6>
+                    <h6 class="blog-card-title">Explicabo illo</h6>
 
                         <p class="blog-card-caption">
                             <a href="#">By: Admin</a>
@@ -387,7 +397,7 @@
     <section class="section" id="contact">
         <div class="container text-center">
             <p class="section-subtitle">How can you communicate?</p>
-            <h6 class="section-title mb-5">Contact Me</h6>
+            <h2 class="section-title mb-5">Contact Me</h2>
             <!-- contact form -->
             <form action="" class="contact-form col-md-10 col-lg-8 m-auto">
                 <div class="form-row">
@@ -413,17 +423,12 @@
     <div class="container">
         <footer class="footer">
             <p class="mb-0">Copyright
-                <script>document.write(new Date().getFullYear())</script> &copy; <a
-                    href="http://www.devcrud.com">DevCRUD</a> Distribution <a
-                    href="https://themewagon.com">ThemeWagon</a>
+                <script>document.write(new Date().getFullYear())</script> &copy; 
             </p>
             <div class="social-links text-right m-auto ml-sm-auto">
                 <a href="javascript:void(0)" class="link"><i class="ti-facebook"></i></a>
-                <a href="javascript:void(0)" class="link"><i class="ti-twitter-alt"></i></a>
-                <a href="javascript:void(0)" class="link"><i class="ti-google"></i></a>
-                <a href="javascript:void(0)" class="link"><i class="ti-pinterest-alt"></i></a>
-                <a href="javascript:void(0)" class="link"><i class="ti-instagram"></i></a>
-                <a href="javascript:void(0)" class="link"><i class="ti-rss"></i></a>
+                <a href="https://www.linkedin.com/company/salosoft/about/" class="link" target="_blank"><i class="ti-linkedin"></i></a>
+                <a href="https://www.instagram.com/salosoft_/" class="link" target="_blank"><i class="ti-instagram"></i></a>
             </div>
         </footer>
     </div> <!-- end of page footer -->
