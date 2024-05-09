@@ -35,6 +35,10 @@
   --danger: #ec185d;
   --light: #f8f9fa;
   --dark: #212529;
+  --naranja-marca: #FF6600;
+  --rojo-marca: #FF0000;
+  --azulO-marca: #003399;
+  --azulC-marca: #6699FF;
   --breakpoint-xs: 0;
   --breakpoint-sm: 576px;
   --breakpoint-md: 768px;
@@ -48,6 +52,19 @@
 *::before,
 *::after {
   box-sizing: border-box;
+}
+
+.color-naranja-marca{
+  background-color: var(--naranja-marca);
+}
+.color-rojo-marca{
+  background-color: var(--rojo-marca);
+}
+.color-azul-oscuro-marca{
+  background-color: var(--azulO-marca);
+}
+.color-azul-claro-marca{
+  background-color: var(--azulC-marca);
 }
 
 html {
@@ -573,7 +590,7 @@ pre code {
     max-width: 720px;
   }
   .logo {
-    width: 20%;
+    width: 30%;
   }
 }
 
@@ -11083,8 +11100,12 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Baloo Paaji', cursive;
 }
 
-h1,h2,h3,h4,h5{
-  color: #FF6600;
+h1,h2,h5{
+  color: var(--naranja-marca);
+}
+
+h3, h4{
+  color: var(--azulO-marca);
 }
 
 h6{
@@ -12190,8 +12211,8 @@ pre .code {
 }
 
 .about-img-holder {
-  min-width: 400px;
-  max-width: 400px;
+  min-width: 600px;
+  max-width: 600px;
   margin-right: 20px;
 }
 
